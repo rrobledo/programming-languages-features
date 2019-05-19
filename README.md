@@ -49,7 +49,7 @@ print(x(10))
 ```
 
 JavaScript
-```
+```javascript
 var foo = (x) => {return x * x} 
 
 console.log(foo(10))
