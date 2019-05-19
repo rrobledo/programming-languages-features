@@ -43,11 +43,16 @@ System.out.println(foo(10))
 ```
 
 Python
-```
+```python
+foo = lambda x : x * x
+print(x(10))
 ```
 
 JavaScript
 ```
+var foo = (x) => {return x * x} 
+
+console.log(foo(10))
 ```
 
 
