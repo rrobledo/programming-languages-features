@@ -55,9 +55,56 @@ var foo = (x) => {return x * x}
 console.log(foo(10))
 ```
 
-
-
 ## Closures
+A closure is a persistent scope which holds on to local variables even after the code execution has moved out of that block. 
+A Closure is a function object that remembers values in enclosing scopes regardless of whether those scopes are still present in memory.
+
+Scala
+```scala
+val add = {
+  var x = 0
+  () => { x += 1; x}
+}
+
+println(add())
+println(add())
+println(add())
+```
+
+Golang
+```golang
+foo := func(x int) int {
+ return x * x
+}
+
+fmt.Println(foo(10))
+```
+
+Java
+```java
+BiFunction<Int, Int> foo = x -> { x * x }
+
+System.out.println(foo(10))
+```
+
+Python
+```python
+foo = lambda x : x * x
+print(x(10))
+```
+
+JavaScript
+```javascript
+var add = (function () {
+  var counter = 0;
+  return function () {counter += 1; return counter}
+})();
+
+console.log(add());
+console.log(add());
+console.log(add());
+```
+
 
 ## Collection
 
