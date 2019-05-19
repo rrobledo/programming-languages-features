@@ -4,8 +4,13 @@ Table of contents
 =================
 
 <!--ts-->
-  * [Resouce Names](#resouce-names)
-  * [HTTP Methods](#http-methods)
+  * [Lambda Functions](#lambda-functions)
+  * [Closures](#closures)
+  * [Collections](#collection)
+  * [Pattern Marching](#pattern-matching)
+  * [Promises](#promices)
+  * [Async/Away](#async/away)
+
   * [References](#references)
 <!--te-->
 
@@ -14,11 +19,11 @@ Table of contents
 
 ## Closures
 
-## Collection (Map/Reduce)
+## Collection
 
 ## Pattern Matching
 
-## async/away
+## Async/Away
 
 
 
