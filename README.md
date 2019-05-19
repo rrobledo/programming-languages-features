@@ -16,6 +16,41 @@ Table of contents
 
 
 ## Lambda Functions
+Lambda comes from the Lambda Calculus and refers to anonymous functions in programming. 
+Why is this cool? It allows you to write quick throw away functions without naming them. It also provides a nice way to write closures. With that power you can do things like this.
+
+Scala
+```scala
+val foo = (x: Int) : Int => x * x
+
+println(foo(10))
+```
+
+Golang
+```golang
+foo := func(x int) int {
+ return x * x
+}
+
+fmt.Println(foo(10))
+```
+
+Java
+```java
+BiFunction<Int, Int> foo = x -> { x * x }
+
+System.out.println(foo(10))
+```
+
+Python
+```
+```
+
+JavaScript
+```
+```
+
+
 
 ## Closures
 
