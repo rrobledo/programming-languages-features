@@ -62,8 +62,8 @@ A Closure is a function object that remembers values in enclosing scopes regardl
 Scala
 ```scala
 val add = {
-  var x = 0
-  () => { x += 1; x}
+  var counter = 0
+  () => { counter += 1; counter}
 }
 
 println(add())
@@ -73,11 +73,17 @@ println(add())
 
 Golang
 ```golang
-foo := func(x int) int {
- return x * x
-}
+add := func() func() int {
+    counter := 0
+    return func() int {
+        counter++
+        return counter
+    }
+}()
 
-fmt.Println(foo(10))
+fmt.Println(add())
+fmt.Println(add())
+fmt.Println(add())
 ```
 
 Java
