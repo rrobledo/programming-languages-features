@@ -37,7 +37,9 @@ fmt.Println(foo(10))
 
 Java
 ```java
-Not supported
+BiFunction<Int, Int> foo = x -> { x * x }
+
+System.out.println(foo(10))
 ```
 
 Python
@@ -86,9 +88,7 @@ fmt.Println(add())
 
 Java
 ```java
-BiFunction<Int, Int> foo = x -> { x * x }
-
-System.out.println(foo(10))
+Not supported
 ```
 
 Python
