@@ -37,9 +37,7 @@ fmt.Println(foo(10))
 
 Java
 ```java
-BiFunction<Int, Int> foo = x -> { x * x }
-
-System.out.println(foo(10))
+Not supported
 ```
 
 Python
