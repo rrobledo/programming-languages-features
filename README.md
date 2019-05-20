@@ -93,8 +93,20 @@ Not supported
 
 Python
 ```python
-foo = lambda x : x * x
-print(x(10))
+def makeAdd():
+    counter = 0
+    
+    def innerAdd():
+        nonlocal counter
+        counter += 1
+        return counter
+    return innerAdd
+
+add = makeAdd()
+
+print(add());
+print(add());
+print(add());
 ```
 
 JavaScript
