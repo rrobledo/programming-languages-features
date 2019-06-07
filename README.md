@@ -6,7 +6,7 @@ Table of contents
 <!--ts-->
   * [Lambda Functions](#lambda-functions)
   * [Closures](#closures)
-  * [Collections](#collection)
+  * [Collection Pipeline](#collection-pipeline)
   * [Pattern Marching](#pattern-matching)
   * [Promises](#promices)
   * [Async/Away](#async/away)
@@ -122,7 +122,7 @@ console.log(add());
 ```
 
 
-## Collection
+## Collection Pipeline
 
 ## Pattern Matching
 
