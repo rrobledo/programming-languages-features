@@ -123,6 +123,7 @@ console.log(add());
 
 
 ## Collection Pipeline
+Collection pipelines are a programming pattern where you organize some computation as a sequence of operations which compose by taking a collection as output of one operation and feeding it into the next. (Common operations are filter, map, and reduce.) This pattern is common in functional programming, and also in object-oriented languages which have lambdas
 
 ## Pattern Matching
 
