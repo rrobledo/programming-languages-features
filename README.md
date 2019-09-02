@@ -161,3 +161,5 @@ the processed list, only even numbers: [2, 4, 6]
 
 
 ## References
+
+http://dist-prog-book.com/chapter/2/futures.html
